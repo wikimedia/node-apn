@@ -36,6 +36,7 @@ const EndpointManager = require("./lib/protocol/endpointManager")({
 });
 
 const Client = require("./lib/client")({
+  logger: debug,
   config,
   EndpointManager,
 });
