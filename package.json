@@ -1,5 +1,5 @@
 {
-  "name": "apn",
+  "name": "@wikimedia/apn",
   "description": "An interface to the Apple Push Notification service for Node.js",
   "version": "3.0.0",
   "author": "Andrew Naylor <argon@mkbot.net>",
