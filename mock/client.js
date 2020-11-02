@@ -9,5 +9,7 @@ module.exports = function() {
     return { device };
   };
 
+  Client.prototype.shutdown = function mockShutdown() {};
+
   return Client;
 };
